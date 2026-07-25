@@ -62,7 +62,7 @@
 
 ---
 
-## 🎯 Recommended Reading Strategy
+## Recommended Reading Strategy
 - Use **Isaacson & Keller** for **theory-heavy sections (1 & 5.1)**.  
 - Use **LeVeque** for **finite difference & finite volume (2–3)**.  
 - Use **Johnson** for **finite element rigor (4)**.  
