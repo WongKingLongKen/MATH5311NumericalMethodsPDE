@@ -1,34 +1,34 @@
-1 Stability analysis, local truncation error analysis, convergence analysis
-1.1 Truncation error
-1.2 Implementaion and stability
-1.3 Stability and implicit methods
-1.4 Time stepping and general BCs
-2 Finite difference method
-2.1 Finite difference for 2D heat equation
-2.2 Finite difference for 1d advection
-2.3 Dispersion analysis and modified equation .
-2.4 Extension of upwind scheme
-3 Basics of finite volume method
-3.1 Finite volume
-3.2 Godunov scheme and Riemann problem
-3.3 Wave equation and pollution effects
-3.4 FD for elliptic equation and general geometry
-4 Basics of finite element
-4.1 Variational form and FEM
-4.2 Boundary conditions and high order FEM
-4.3 Building Blocks for FEM in 2D
-4.4 Discontinuous Galerkin method
-4.5 Some theoretical aspects of FEM
-4.6 More on time discretization
-5 Basic linear equation solver 45
-5.1 Basic iterative linear solvers
-5.2 Krylov method and preconditioning
-5.3 Basic Introduction to multigrid
-5.4 On the nonlinear system solver
+## 1 Stability analysis, local truncation error analysis, convergence analysis
+### 1.1 Truncation error
+### 1.2 Implementaion and stability
+### 1.3 Stability and implicit methods
+### 1.4 Time stepping and general BCs
+## 2 Finite difference method
+### 2.1 Finite difference for 2D heat equation
+### 2.2 Finite difference for 1d advection
+### 2.3 Dispersion analysis and modified equation .
+### 2.4 Extension of upwind scheme
+## 3 Basics of finite volume method
+### 3.1 Finite volume
+### 3.2 Godunov scheme and Riemann problem
+### 3.3 Wave equation and pollution effects
+### 3.4 FD for elliptic equation and general geometry
+## 4 Basics of finite element
+### 4.1 Variational form and FEM
+### 4.2 Boundary conditions and high order FEM
+### 4.3 Building Blocks for FEM in 2D
+### 4.4 Discontinuous Galerkin method
+### 4.5 Some theoretical aspects of FEM
+### 4.6 More on time discretization
+## 5 Basic linear equation solver 45
+### 5.1 Basic iterative linear solvers
+### 5.2 Krylov method and preconditioning
+### 5.3 Basic Introduction to multigrid
+### 5.4 On the nonlinear system solver
 
 ---
 
-## 📖 Syllabus-to-Reference Mapping
+## Syllabus-to-Reference Mapping
 
 ### **1 Stability analysis, truncation error, convergence**
 - **Isaacson & Keller** → Ch. 2–3 (local truncation error, stability, convergence theory)  
