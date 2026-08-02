@@ -76,3 +76,8 @@
 - Use **Johnson** for **finite element rigor (4)**.  
 - Supplement with **Quarteroni & Valli** for **unified coverage and time discretization**.  
 - Add **Saad & Hackbusch** for **modern iterative solvers**.  
+
+---
+
+## Lecture Notes
+start with MIT 18.336 — it’s comprehensive and modern. Pair it with Cambridge FEM notes for the finite element part. Use Trefethen’s notes for dispersion/pollution effects.
