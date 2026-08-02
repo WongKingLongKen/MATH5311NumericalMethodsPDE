@@ -30,35 +30,43 @@
 
 ## Syllabus-to-Reference Mapping
 
-### **1 Stability analysis, truncation error, convergence**
-- **Isaacson & Keller** → Ch. 2–3 (local truncation error, stability, convergence theory)  
-- **LeVeque** → Ch. 2–4 (consistency, stability, Lax equivalence theorem)  
+### **1 Stability, truncation error, convergence**
+- **Isaacson Ch. 8 (ODEs)** → Sections on truncation error, consistency, convergence, stability (pp. 410–418).  
+- **Isaacson Ch. 9 (PDEs)** → General theory of consistency, convergence, stability (pp. 514–523).  
+- Still relevant: rigorous foundation for truncation error and stability.  
+- Outdated: does not cover modern implicit schemes or adaptive time-stepping.  
+  → Use **LeVeque – Finite Difference Methods** for implicit methods and time-stepping.  
+
+---
 
 ### **2 Finite Difference Method**
-- **2.1 Heat equation (2D)** → LeVeque Ch. 6 (parabolic PDEs, diffusion schemes)  
-- **2.2 Advection (1D)** → LeVeque Ch. 7 (hyperbolic PDEs, upwind schemes)  
-- **2.3 Dispersion & modified equation** → LeVeque Ch. 8 (dispersion analysis, modified equations)  
-- **2.4 Upwind extension** → LeVeque Ch. 7–8 (higher-order upwind, flux limiters)  
+- **Isaacson Ch. 9** → Laplace, wave, and heat equations with FD schemes (pp. 445–505).  
+- Good for classical FD schemes and von Neumann stability.  
+- Missing: dispersion analysis, modified equations, modern upwind extensions.  
+  → Use **LeVeque** for dispersion & upwind schemes; **Strikwerda – Finite Difference Schemes** for deeper PDE-focused FD analysis.  
 
-### **3 Basics of Finite Volume Method**
-- **3.1 Finite volume basics** → LeVeque Ch. 12 (finite volume framework)  
-- **3.2 Godunov & Riemann problem** → LeVeque Ch. 13; **Toro – Riemann Solvers**  
-- **3.3 Wave equation & pollution effects** → LeVeque Ch. 9 (wave propagation, numerical dispersion)  
-- **3.4 FD for elliptic & geometry** → Quarteroni & Valli Ch. 2–3 (elliptic PDEs, general geometries)  
+---
 
-### **4 Basics of Finite Element Method**
-- **4.1 Variational form & FEM** → **Johnson** Ch. 1–3  
-- **4.2 Boundary conditions & high-order FEM** → Johnson Ch. 4–5; Quarteroni & Valli Ch. 6  
-- **4.3 FEM in 2D** → Johnson Ch. 6 (triangular elements, basis functions)  
-- **4.4 Discontinuous Galerkin** → Quarteroni & Valli Ch. 7; MIT 18.336 notes  
-- **4.5 Theoretical aspects** → Johnson Ch. 7–8 (error estimates, convergence)  
-- **4.6 Time discretization** → Quarteroni & Valli Ch. 8 (implicit/explicit schemes in FEM)  
+### **3 Finite Volume Method**
+- Isaacson does not cover finite volume or Godunov schemes.  
+  → Use **LeVeque Ch. 12–13** for finite volume & Godunov; **Toro – Riemann Solvers** for Riemann problems and pollution effects.  
+
+---
+
+### **4 Finite Element Method**
+- Isaacson has no FEM coverage.  
+  → Use **Johnson – Numerical Solution of PDEs by FEM** for variational form, boundary conditions, DG methods.  
+  → Supplement with **Quarteroni & Valli – Numerical Approximation of PDEs** for time discretization and theoretical aspects.  
+
+---
 
 ### **5 Linear Equation Solvers**
-- **5.1 Iterative solvers** → Isaacson & Keller Ch. 7 (Jacobi, Gauss–Seidel)  
-- **5.2 Krylov & preconditioning** → **Saad – Iterative Methods** Ch. 6–8  
-- **5.3 Multigrid** → **Hackbusch – Multigrid Methods**  
-- **5.4 Nonlinear solvers** → Quarteroni & Valli Ch. 9 (Newton, fixed-point methods)  
+- **Isaacson Ch. 2** → Gaussian elimination, Cholesky, Jacobi, Gauss–Seidel, iterative methods (pp. 29–82).  
+- **Isaacson Ch. 3** → Nonlinear solvers (Newton, chord, false position, Bairstow).  
+- Still useful for classical iterative solvers.  
+- Missing: Krylov methods, preconditioning, multigrid.  
+  → Use **Saad – Iterative Methods for Sparse Linear Systems** for Krylov/preconditioning.  
+  → Use **Hackbusch – Multigrid Methods** for multigrid.  
 
 ---
 
